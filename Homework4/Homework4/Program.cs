@@ -33,6 +33,12 @@ namespace Homework4
             // Loop to pupulate the array
             do
             {
+                // when the iterations reach the number entered
+                if (count > value)
+                {
+                    break;
+                }
+
                 // populate the array
                 numbers[element] = count;
 
@@ -45,8 +51,7 @@ namespace Homework4
                 // Increment the iteration and array's length count
                 element ++;
                 count ++;
-
-            } while (count <= value);   // when the iterations reach the number entered
+            } while (count <= value);
 
             // Hold the screen
             Console.ReadLine();
