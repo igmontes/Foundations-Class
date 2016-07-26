@@ -1,0 +1,73 @@
+1. Which of the followings is considered boxing?
+	a. double dblx = fx;
+	b. float fx = ix;
+	c. object myobjx = fx;
+	d. int ix = objy;
+
+Answer: C
+
+
+2. Which of the followings is considered unboxing?
+	a. string str = ix.ToString();
+	b. double dblx =(double) fx;
+	c. object myobjx = fx;
+	d. int ix = (int) objy;
+
+Answer: D
+
+
+3. Object objdblx is of type double. Assign the value of this object to a variable of type float.
+	float fx = objdblx;
+
+Answer: float fx = (float)objdblx;
+
+
+4. Object objflx is of type float. Assign the value of this object o another variable of type double.
+	double dx = objflx;
+
+Answer double dx = (double)(float)objflx;
+
+
+5. Convert the string strx to a double dblx:
+	double dblx =
+
+Answer: double dblx = double.parse(strx);
+
+
+6. Convert the integer ix to a float fx:
+	float fx =
+
+Answer: float fx = (float)ix;
+
+
+7. Convert the double dblx to a string strx:
+	string strx =
+
+Answer: string strx = Convert.ToString(dblx);
+
+
+8. Object is the  "BASE"  class of all other data types.
+
+
+9. What is an object (the definition)?
+Answer: 
+	In Object Oriented Programming it is a structure
+	for incorporating data and the procedures to work
+	with that data.
+
+	In C# programming it is an actual "type" of container
+	and data can be assigned to it.
+
+
+10. How do you declare an object in C#?
+Answer: object myobject;
+
+
+11. What is the difference between an object and a variable?
+Answer: A variable has more functions associated with it than
+	an object, the number of fucntions varies per variable
+	type.
+
+	An object only has 4 functions associated with it and
+	in order to assign or retrieve data from it, you have
+	to use the "boxing" or "unboxing" methods, respectively.
